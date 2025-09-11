@@ -126,15 +126,27 @@ const Navbar = () => {
                                 )
                             })}
 
+
+                            <div className={navbarStyles.mobileIconRow}>
+                                <Link to='/cart' className='relative group p-2 '
+                                onClick={ () => setIsOpen(false)}>
+
+                                    <FaOpencart className='h-5 w-5 text-gray-600 group-hover:text-amber-600' />
+                                    {
+                                        totalQuantity > 0 && (
+                                             <span className={navbarStyles.mobileCartBadge}> {totalQuantity} </span> 
+                                            
+                                    )}
+                                </Link>
+
+                                <Link to='login' className='p-2 group ' onClick={() => setIsOpen(false)}> 
+                                <User className='h-5 w-5 text-gray-600 group-hover:text-emerald-600'/>
+                                 </Link>
+                            </div>
                         </div>
-
                     </div>
-
                 </div>
              )}
-
-
-
         </nav>
     );
 };
