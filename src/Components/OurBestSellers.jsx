@@ -7,7 +7,7 @@ import { useCart } from "../CartContext/CartContext";
 const OurBestSellers = () => {
     const scrollRef = useRef(null);
 
-    // ✅ এখানেই custom hook useCart কল করবো
+  
     const { cart, dispatch } = useCart();
 
     const inCart = (id) => cart?.items?.some(item => item.id === id);
@@ -109,8 +109,7 @@ const OurBestSellers = () => {
                                             <div className={styles.qtyWrapper}>
                                                 <button
                                                     onClick={() => handelDec(book.id)}
-                                                    className={styles.qtyBtn}
-                                                >
+                                                    className={styles.qtyBtn}  >
                                                     <Minus size={18} />
                                                 </button>
                                                 <span className={styles.qtyText}>
