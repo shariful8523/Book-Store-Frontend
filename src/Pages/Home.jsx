@@ -1,4 +1,5 @@
 import Banner from '../Components/Banner';
+import Footer from '../Components/Footer';
 import HomeAbout from '../Components/HomeAbout';
 import HomeBooks from '../Components/HomeBooks';
 import Navbar from '../Components/Navbar';
@@ -12,6 +13,7 @@ const Home = () => {
            <OurBestSellers/>
            <HomeBooks/>
            <HomeAbout/>
+           <Footer/>
         </>
     );
 };
