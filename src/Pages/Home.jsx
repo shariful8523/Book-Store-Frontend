@@ -1,4 +1,5 @@
 import Banner from '../Components/Banner';
+import HomeAbout from '../Components/HomeAbout';
 import HomeBooks from '../Components/HomeBooks';
 import Navbar from '../Components/Navbar';
 import OurBestSellers from '../Components/OurBestSellers';
@@ -10,6 +11,7 @@ const Home = () => {
            <Banner/>
            <OurBestSellers/>
            <HomeBooks/>
+           <HomeAbout/>
         </>
     );
 };

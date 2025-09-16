@@ -139,7 +139,7 @@ const Navbar = () => {
                                     )}
                                 </Link>
 
-                                <Link to='login' className='p-2 group ' onClick={() => setIsOpen(false)}> 
+                                <Link to='/login' className='p-2 group ' onClick={() => setIsOpen(false)}> 
                                 <User className='h-5 w-5 text-gray-600 group-hover:text-emerald-600'/>
                                  </Link>
                             </div>
