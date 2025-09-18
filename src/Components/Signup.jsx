@@ -107,7 +107,6 @@ const SignUp = () => {
                     <Link to='/login' className={Signup.link} >
                         Sing in
                     </Link>
-
                 </div>
             </div>
         </div>
