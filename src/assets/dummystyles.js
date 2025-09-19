@@ -520,10 +520,7 @@ export const Signup = {
 // dummyStyles.js
 export const loginStyles = {
   container: "min-h-screen flex items-center justify-center bg-gray-50 p-4",
-  toast: (type) =>
-    `fixed top-4 right-4 p-3 rounded-md ${
-      type === "success" ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700"
-    }`,
+  toast: "fixed top-4 right-4 p-3 rounded-md",
   card: "w-full max-w-md bg-white rounded-lg shadow-sm p-8",
   backLink: "flex items-center text-gray-600 mb-8",
   iconCircle: "mx-auto mb-4 bg-gray-100 w-fit p-3 rounded-full",
